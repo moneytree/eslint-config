@@ -10,10 +10,20 @@ In your project, install this configuration:
 npm install --save-dev @moneytree/eslint-config-nodejs
 ```
 
-Create a configuration file for ESLint with at least the following line in it:
+Create a configuration file for ESLint with at least the following line in it.
+
+YAML:
 
 ```yaml
-extends: @moneytree/eslint-config-nodejs
+extends: "@moneytree/eslint-config-nodejs"
+```
+
+JSON:
+
+```json
+{
+  "extends": "@moneytree/eslint-config-nodejs"
+}
 ```
 
 ## Fine-tuning
