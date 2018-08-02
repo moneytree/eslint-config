@@ -1,0 +1,17 @@
+{
+  "name": "@moneytree/eslint-config-nodejs",
+  "version": "0.0.1",
+  "description": "ESLint rules for Moneytree Node.js projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . -c eslintrc.yml"
+  },
+  "author": "Ron Korving <rkorving@moneytree.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^3.12.0"
+  },
+  "devDependencies": {
+    "eslint": "5.2.0"
+  }
+}
