@@ -42,6 +42,18 @@ level at which you want to apply the rule:
 
 To change a rule, simply rewrite the rule in your own configuration file, and adjust the level as you wish.
 
+## Plugins
+
+Depending on additional libraries you use, like testing frameworks, there may be some very interesting ESLint plugins
+for your project that you may want to add to your configuration. Check them out over at
+[Awesome ESLint](https://github.com/dustinspecker/awesome-eslint#plugins).
+
+## Supported ESLint version
+
+We attempt to keep the rules compatible and complete with regards to the latest version of ESLint. Sometimes we will
+inevitably fall behind a little. If you want to know which version of ESLint we cover, please refer to the version of
+the ESLint devDependency in [package.json](package.json).
+
 ## License
 
 MIT

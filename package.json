@@ -4,15 +4,18 @@
   "description": "ESLint rules for Moneytree Node.js projects",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . -c eslintrc.yml"
+    "test": "eslint . -c eslintrc.yml",
+    "rules": "eslint-find-rules -du ./eslintrc.yml"
   },
   "author": "Ron Korving <rkorving@moneytree.jp>",
+  "repository": "github:moneytree/eslint-config-nodejs",
   "license": "MIT",
   "dependencies": {
     "js-yaml": "^3.12.0"
   },
   "devDependencies": {
-    "eslint": "5.2.0"
+    "eslint": "5.2.0",
+    "eslint-find-rules": "3.3.1"
   },
   "keywords": [
     "eslint",
