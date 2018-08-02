@@ -13,5 +13,10 @@
   },
   "devDependencies": {
     "eslint": "5.2.0"
-  }
+  },
+  "keywords": [
+    "eslint",
+    "configuration",
+    "moneytree"
+  ]
 }
