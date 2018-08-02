@@ -182,7 +182,7 @@ rules:
   id-length: 0
   id-match: 0
   implicit-arrow-linebreak: [2, beside]
-  indent: indent: [2, 2, { SwitchCase: 1 }]
+  indent: [2, 2, { SwitchCase: 1 }]
   jsx-quotes: [2, prefer-double]
   key-spacing: [2, { beforeColon: false, afterColon: true, mode: strict }]
   keyword-spacing: [2, { before: true, after: true }]
