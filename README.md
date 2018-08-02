@@ -1,6 +1,7 @@
 # Moneytree ESLint shared configuration
 
-ESLint rules that cover both safety-related rules and code-style, as used by [Moneytree](https://www.getmoneytree.com/).
+ESLint configuration that covers both safety and code-style [rules](https://eslint.org/docs/rules/), as used by
+[Moneytree](https://www.getmoneytree.com/).
 
 ## How to setup
 
