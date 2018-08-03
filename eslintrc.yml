@@ -156,26 +156,20 @@ rules:
   array-bracket-newline: 0
   array-bracket-spacing: [2, never]
   array-element-newline: 0
-  block-spacing: [2, "always"]
+  block-spacing: [2, always]
   brace-style: [2, "1tbs"]
   camelcase: [2, { properties: never }]
   capitalized-comments: 0
-  comma-dangle: [2, {
-    arrays: never,
-    objects: never,
-    imports: never,
-    exports: never,
-    functions: never
-  }]
+  comma-dangle: [2, never]
   comma-spacing: [2, { before: false, after: true }]
-  comma-style: [2, "last"]
+  comma-style: [2, last]
   computed-property-spacing: [2, never]
-  consistent-this: [2, "that"]
-  eol-last: [2, "always"]
+  consistent-this: [2, that]
+  eol-last: [2, always]
   func-call-spacing: [2, never]
   func-name-matching: 0
   func-names: 0
-  func-style: [2, "declaration", { allowArrowFunctions: true }]
+  func-style: [2, declaration, { allowArrowFunctions: true }]
   function-paren-newline: [2, consistent]
   id-blacklist: 0
   id-length: 0
@@ -188,7 +182,7 @@ rules:
   line-comment-position: 0
   linebreak-style: [2, unix]
   lines-around-comment: [2, { beforeBlockComment: true }]
-  lines-between-class-members: [2, "always", { exceptAfterSingleLine: true }]
+  lines-between-class-members: [2, always, { exceptAfterSingleLine: true }]
   max-depth: [1, 6]
   max-len: [2, { code: 120, ignoreUrls: true }]
   max-lines: [1, { max: 1000, skipBlankLines: true, skipComments: true }]
