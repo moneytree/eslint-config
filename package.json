@@ -1,6 +1,6 @@
 {
   "name": "@moneytree/eslint-config-nodejs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "ESLint rules for Moneytree Node.js projects",
   "main": "index.js",
   "scripts": {
