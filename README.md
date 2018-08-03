@@ -11,7 +11,12 @@ In your project, install this configuration:
 npm install --save-dev @moneytree/eslint-config
 ```
 
-Create a configuration file for ESLint with at least the following line in it.
+Choose a configuration to use in your project (or a folder somewhere inside your project). Available options:
+
+- [`nodejs`](./eslintrc/nodejs.yml): Recommended base Node.js configuration.
+- [`nodejs-bin`](./eslintrc/nodejs-bin.yml): Extends `nodejs` to specialize for Node.js CLI scripts.
+
+Now refer to that configuration in your own ESLint configuration file, by extending from it:
 
 YAML:
 
@@ -26,6 +31,8 @@ JSON:
   "extends": "@moneytree/eslint-config/nodejs"
 }
 ```
+
+> Replace "nodejs" by the configuration of your choice.
 
 ## Fine-tuning
 
@@ -42,9 +49,6 @@ level at which you want to apply the rule:
 - 2: error (the lint check will fail)
 
 To change a rule, simply rewrite the rule in your own configuration file, and adjust the level as you wish.
-
-To see the original rules, please refer to YAML files in the [eslintrc](./eslintrc/) folder, that are named after the
-configuration you extend (eg: `nodejs`).
 
 ## Plugins
 
