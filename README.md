@@ -8,7 +8,7 @@ ESLint configuration that covers both safety and code-style [rules](https://esli
 In your project, install this configuration:
 
 ```sh
-npm install --save-dev @moneytree/eslint-config-nodejs
+npm install --save-dev @moneytree/eslint-config
 ```
 
 Create a configuration file for ESLint with at least the following line in it.
@@ -16,14 +16,14 @@ Create a configuration file for ESLint with at least the following line in it.
 YAML:
 
 ```yaml
-extends: "@moneytree/eslint-config-nodejs"
+extends: "@moneytree/eslint-config/nodejs"
 ```
 
 JSON:
 
 ```json
 {
-  "extends": "@moneytree/eslint-config-nodejs"
+  "extends": "@moneytree/eslint-config/nodejs"
 }
 ```
 
@@ -52,8 +52,8 @@ for your project that you may want to add to your configuration. Check them out 
 ## Supported ESLint version
 
 We attempt to keep the rules compatible and complete with regards to the latest version of ESLint. Sometimes we will
-inevitably fall behind a little. If you want to know which version of ESLint we cover, please refer to the version of
-the ESLint devDependency in [package.json](package.json).
+inevitably fall behind a little. If you want to know which versions of ESLint we cover, please refer to the version of
+the ESLint peer-dependency in [package.json](package.json).
 
 ## License
 

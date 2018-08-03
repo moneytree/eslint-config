@@ -1,15 +1,18 @@
 {
-  "name": "@moneytree/eslint-config-nodejs",
+  "name": "@moneytree/eslint-config",
   "version": "0.0.7",
-  "description": "ESLint rules for Moneytree Node.js projects",
-  "main": "index.js",
+  "description": "ESLint shared configuration for Moneytree projects",
+  "main": "nodejs.js",
   "scripts": {
-    "test": "eslint . -c eslintrc.yml",
-    "rules": "eslint-find-rules -du ./eslintrc.yml"
+    "test": "eslint . -c eslintrc/nodejs.yml",
+    "rules": "eslint-find-rules -du ./eslintrc/*.yml"
   },
   "author": "Ron Korving <rkorving@moneytree.jp>",
-  "repository": "github:moneytree/eslint-config-nodejs",
+  "repository": "github:moneytree/eslint-config",
   "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 5.2.0"
+  },
   "dependencies": {
     "js-yaml": "^3.12.0"
   },

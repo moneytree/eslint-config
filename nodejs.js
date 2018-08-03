@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 
-const filePath = path.join(__dirname, 'eslintrc.yml');
+const filePath = path.join(__dirname, 'eslintrc', 'nodejs.yml');
 
 const config = fs.readFileSync(filePath, { encoding: 'utf8' });
 
