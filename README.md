@@ -43,6 +43,9 @@ level at which you want to apply the rule:
 
 To change a rule, simply rewrite the rule in your own configuration file, and adjust the level as you wish.
 
+To see the original rules, please refer to YAML files in the [eslintrc](./eslintrc/) folder, that are named after the
+configuration you extend (eg: `nodejs`).
+
 ## Plugins
 
 Depending on additional libraries you use, like testing frameworks, there may be some very interesting ESLint plugins
@@ -53,7 +56,7 @@ for your project that you may want to add to your configuration. Check them out 
 
 We attempt to keep the rules compatible and complete with regards to the latest version of ESLint. Sometimes we will
 inevitably fall behind a little. If you want to know which versions of ESLint we cover, please refer to the version of
-the ESLint peer-dependency in [package.json](package.json).
+the ESLint peer-dependency in [package.json](./package.json).
 
 ## License
 
