@@ -1,0 +1,6 @@
+extends: "@moneytree/eslint-config/nodejs"
+
+rules:
+  no-console: 0
+  no-process-exit: 0
+  no-sync: 0
