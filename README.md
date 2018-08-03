@@ -31,8 +31,8 @@ JSON:
 
 If you find that your project needs slightly different rules, or if you introduce this configuration into an existing
 project that may break too many rules, you can override the configuration. Especially in the latter case, we would
-suggest leaving the rule in place, but turning it into a warning instead, so that you can gradually update your codebase
-and in the future turn that rule into an error again.
+suggest leaving the rule in place, but turning it into a warning instead, so that you can gradually update your code
+base and in the future turn that rule into an error again.
 
 All rules are defined as a number or an array of which the first value is a number. That special first number is the
 level at which you want to apply the rule:
