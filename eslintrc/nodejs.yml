@@ -184,7 +184,7 @@ rules:
   keyword-spacing: [2, { before: true, after: true }]
   line-comment-position: 0
   linebreak-style: [2, unix]
-  lines-around-comment: [2, { beforeBlockComment: true }]
+  lines-around-comment: [2, { beforeBlockComment: true, allowBlockStart: true }]
   lines-between-class-members: [2, always, { exceptAfterSingleLine: true }]
   max-depth: [1, 6]
   max-len: [2, { code: 120, ignoreUrls: true }]
