@@ -1,0 +1,11 @@
+# Specialized Node.js configuration for unit test scripts
+
+extends: "@moneytree/eslint-config/nodejs"
+
+rules:
+  # See: http://eslint.org/docs/rules/
+
+  no-sync: 0
+  complexity: 0
+  max-lines: 0
+  max-lines-per-function: 0

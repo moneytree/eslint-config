@@ -15,6 +15,7 @@ Choose a configuration to use in your project (or a folder somewhere inside your
 
 - [`nodejs`](./eslintrc/nodejs.yml): Recommended base Node.js configuration.
 - [`nodejs-bin`](./eslintrc/nodejs-bin.yml): Extends `nodejs` to specialize for Node.js CLI scripts.
+- [`nodejs-test`](./eslintrc/nodejs-test.yml): Extends `nodejs` to specialize for Node.js unit test scripts.
 
 Now refer to that configuration in your own ESLint configuration file, by extending from it:
 
