@@ -62,6 +62,29 @@ We attempt to keep the rules compatible and complete with regards to the latest 
 inevitably fall behind a little. If you want to know which versions of ESLint we cover, please refer to the version of
 the ESLint peer-dependency in [package.json](./package.json).
 
+## Contributing
+
+### Versioning
+
+We try to be [semver](https://semver.org/)-ish in how we version this project. To create a version-bump commit, simply
+run `npm version patch`, `npm version minor` or `npm version major`.
+
+*patch* should get bumped when:
+
+- New configuration file variations are introduced (like `nodejs-bin` in the example above).
+
+*minor* should get bumped when:
+
+- Rules are changed.
+- Rules are added.
+- The `eslint` peer-dependency's minimal version is raised (which is usually when rules are added).
+
+*major* should get bumped when:
+
+- A major version bump of ESLint occurs that has significant impact on the users of this configuration.
+- A massive overhaul of the project happens, implying changes to installation and/or integration.
+- New peer-dependencies are required.
+
 ## License
 
 MIT
