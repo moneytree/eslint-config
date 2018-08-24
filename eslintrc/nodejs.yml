@@ -57,7 +57,7 @@ rules:
   consistent-return: 0
   curly: [2, all]
   default-case: 0
-  dot-location: [2, object]
+  dot-location: [2, property]
   dot-notation: 2
   eqeqeq: 2
   guard-for-in: 2
