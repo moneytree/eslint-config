@@ -21,7 +21,7 @@
     "eslint": "^5.15.0"
   },
   "dependencies": {
-    "js-yaml": "3.13.0"
+    "js-yaml": "3.13.1"
   },
   "devDependencies": {
     "eslint": "5.15.3",
