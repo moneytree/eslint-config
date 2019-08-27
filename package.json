@@ -6,8 +6,8 @@
   "scripts": {
     "lint:js": "eslint . -c eslintrc/nodejs.yml",
     "lint:yml": "yamllint eslintrc/*.yml",
-    "test": "npm run lint:js && npm run lint:yml",
-    "rules": "eslint-find-rules -du ./eslintrc/nodejs.yml"
+    "rules": "eslint-find-rules -du ./eslintrc/nodejs.yml",
+    "test": "npm run lint:js && npm run lint:yml && npm run rules"
   },
   "husky": {
     "hooks": {
