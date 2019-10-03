@@ -32,6 +32,7 @@ rules:
   no-extra-parens: 0
   no-extra-semi: 2
   no-func-assign: 2
+  no-import-assign: 2
   no-inner-declarations: 2
   no-invalid-regexp: 2
   no-irregular-whitespace: 2
@@ -45,7 +46,7 @@ rules:
   no-unreachable: 2
   no-unsafe-finally: 2
   no-unsafe-negation: 2
-  require-atomic-updates: 2
+  require-atomic-updates: 1 # warning, because of false positives: https://github.com/eslint/eslint/issues/11899
   use-isnan: 2
   valid-typeof: 2
 
@@ -59,6 +60,7 @@ rules:
   consistent-return: 0
   curly: [2, all]
   default-case: 0
+  default-param-last: 2
   dot-location: [2, property]
   dot-notation: 2
   eqeqeq: 2
@@ -119,6 +121,7 @@ rules:
   no-with: 2
   prefer-named-capture-group: 0   # Supported from Node.js 10
   prefer-promise-reject-errors: 2
+  prefer-regex-literals: 2
   radix: 2
   require-await: 2
   require-unicode-regexp: 0
@@ -177,6 +180,7 @@ rules:
   func-name-matching: 0
   func-names: 0
   func-style: [2, declaration, { allowArrowFunctions: true }]
+  function-call-argument-newline: [2, consistent]
   function-paren-newline: [2, consistent]
   id-blacklist: 0
   id-length: 0
