@@ -21,12 +21,12 @@
     "eslint": "^6.7.0"
   },
   "dependencies": {
-    "js-yaml": "3.13.1"
+    "js-yaml": "3.14.0"
   },
   "devDependencies": {
     "eslint": "6.7.1",
-    "eslint-find-rules": "3.4.0",
-    "husky": "3.1.0",
+    "eslint-find-rules": "3.5.0",
+    "husky": "4.2.5",
     "yaml-lint": "1.2.4"
   },
   "keywords": [
