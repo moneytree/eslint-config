@@ -23,9 +23,9 @@ rules:
   node/no-new-require: 2
   node/no-path-concat: 2
   node/no-process-exit: 2
-  node/no-unpublished-bin: 2
-  node/no-unpublished-import: 2
-  node/no-unpublished-require: 2
+  node/no-unpublished-bin: 0      # We tend not to publish our work
+  node/no-unpublished-import: 0   # We tend not to publish our work
+  node/no-unpublished-require: 0  # We tend not to publish our work
   node/no-unsupported-features/es-builtins: 0
   node/no-unsupported-features/es-syntax: 0
   node/no-unsupported-features/node-builtins: 0

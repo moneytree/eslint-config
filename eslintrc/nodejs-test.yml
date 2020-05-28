@@ -11,5 +11,3 @@ rules:
   max-lines: 0
   max-lines-per-function: 0
   node/no-sync: 0
-  node/no-unpublished-import: 0   # because devDependencies are unpublished
-  node/no-unpublished-require: 0  # because devDependencies are unpublished
