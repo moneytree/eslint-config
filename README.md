@@ -13,6 +13,7 @@ npm install --save-dev @moneytree/eslint-config
 
 Choose a configuration to use in your project (or a folder somewhere inside your project). Available options:
 
+- [`javascript`](./eslintrc/javascript.yml): Base JavaScript configuration.
 - [`nodejs`](./eslintrc/nodejs.yml): Recommended base Node.js configuration.
 - [`nodejs-bin`](./eslintrc/nodejs-bin.yml): Extends `nodejs` to specialize for Node.js CLI scripts.
 - [`nodejs-test`](./eslintrc/nodejs-test.yml): Extends `nodejs` to specialize for Node.js unit test scripts.
@@ -72,7 +73,7 @@ run `npm version patch`, `npm version minor` or `npm version major`.
 
 *patch* should get bumped when:
 
-- New configuration file variations are introduced (like `nodejs-bin` in the example above).
+- New configuration files are introduced.
 
 *minor* should get bumped when:
 
