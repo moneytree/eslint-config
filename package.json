@@ -18,16 +18,16 @@
   "repository": "github:moneytree/eslint-config",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^7.4.0"
+    "eslint": "^7.5.0"
   },
   "dependencies": {
     "eslint-plugin-node": "11.1.0",
     "js-yaml": "3.14.0"
   },
   "devDependencies": {
-    "eslint": "7.4.0",
-    "eslint-find-rules": "3.6.0",
-    "husky": "4.2.5",
+    "eslint": "7.13.0",
+    "eslint-find-rules": "3.6.1",
+    "husky": "4.3.5",
     "yaml-lint": "1.2.4"
   },
   "keywords": [
