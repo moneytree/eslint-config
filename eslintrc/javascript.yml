@@ -176,7 +176,6 @@ rules:
   func-style: [2, declaration, { allowArrowFunctions: true }]
   function-call-argument-newline: [2, consistent]
   function-paren-newline: [2, consistent]
-  id-blacklist: 0 # deprecated: replaced by id-denylist
   id-denylist: 0
   id-length: 0
   id-match: 0
