@@ -50,6 +50,7 @@ rules:
   no-unreachable-loop: 2
   no-unsafe-finally: 2
   no-unsafe-negation: 2
+  no-unsafe-optional-chaining: 2
   no-useless-backreference: 2
   require-atomic-updates: 0 # false positives: https://github.com/eslint/eslint/issues/11899
   use-isnan: 2
@@ -103,6 +104,7 @@ rules:
   no-new: 2
   no-new-func: 2
   no-new-wrappers: 2
+  no-nonoctal-decimal-escape: 2
   no-octal: 2
   no-octal-escape: 2
   no-param-reassign: 0
