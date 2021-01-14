@@ -22,12 +22,12 @@
   },
   "dependencies": {
     "eslint-plugin-node": "11.1.0",
-    "js-yaml": "3.14.0"
+    "js-yaml": "4.0.0"
   },
   "devDependencies": {
-    "eslint": "7.15.0",
+    "eslint": "7.17.0",
     "eslint-find-rules": "3.6.1",
-    "husky": "4.3.5",
+    "husky": "4.3.7",
     "yaml-lint": "1.2.4"
   },
   "keywords": [
