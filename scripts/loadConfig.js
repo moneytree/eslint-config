@@ -10,5 +10,5 @@ module.exports = (name) => {
   // eslint-disable-next-line node/no-sync
   const config = fs.readFileSync(filePath, { encoding: 'utf8' });
 
-  return yaml.safeLoad(config);
+  return yaml.load(config);
 };
