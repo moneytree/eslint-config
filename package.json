@@ -27,7 +27,7 @@
   "devDependencies": {
     "eslint": "7.17.0",
     "eslint-find-rules": "3.6.1",
-    "husky": "4.3.7",
+    "husky": "8.0.3",
     "yaml-lint": "1.2.4"
   },
   "keywords": [
